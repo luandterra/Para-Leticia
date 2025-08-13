@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Leticia</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loader"></div>
+        <p>Carregando Presente...</p>
+    </div>
+
+    <div class="container" id="mainContent">
+        <header class="hero">
+            <div class="hero-content">
+                <h1>Para <span id="namePlaceholder">Leticia</span></h1>
+                <p class="subtitle">Alguém que ilumina meus dias</p>
+            </div>
+            <div class="heart-pulse">❤</div>
+        </header>
+
+        <section class="love-letter">
+            <div class="section-header">
+                <h2>Minha Carta de Amor</h2>
+                <div class="heart-divider">❤</div>
+            </div>
+            <div class="letter-content">
+                <p>Minha amada <span id="nameLetter">Leticia</span>,</p>
+                <p>Desde o momento em que nossos olhares se encontraram pela primeira vez, algo único e mágico aconteceu dentro de mim. É como se meu coração tivesse reconhecido no seu a parte que sempre lhe faltou. Você chegou e, sem perceber, trouxe paz para minha alma, alegria para meus dias e um novo sentido para minha vida.</p>
+                <p>O seu sorriso é como um raio de sol que aquece meu coração mesmo nos dias mais frios. O som da sua voz é a melodia mais doce que já ouvi, e o seu abraço é o lugar onde encontro descanso e segurança. Cada detalhe seu me encanta: o jeito como você fala, como se importa, como sonha… e até mesmo como você me faz rir das coisas mais simples.</p>
+                <p>Eu sei que, no meio da nossa história, tivemos um capítulo doloroso. O dia em que nos afastamos foi um dos momentos mais tristes da minha vida. Eu errei, fiz muita coisa que não deveria, e cada dia longe de você me fez perceber o tamanho do vazio que existia sem a sua presença. Mas Deus, na Sua infinita bondade, nos deu a chance de voltarmos a conversar, e isso é um presente que valorizo com toda a minha alma.</p>
+                <p>Hoje, mais do que nunca, tenho certeza de que quero você na minha vida. Não importa o que ficou para trás — o que importa é o agora, e o agora é nós dois, reconstruindo o que temos com mais amor, paciência e cuidado do que nunca.</p>
+                <p>Leticia, meu amor por você é tão grande que palavras se tornam pequenas diante daquilo que sinto. Você é minha melhor amiga, meu amor, meu porto seguro e a maior bênção que Deus colocou no meu caminho. Eu te escolho todos os dias, e escolherei sempre, em todas as versões da minha vida.</p>
+                <p>Prometo cuidar de você, respeitar seus sonhos, ser seu apoio nas dificuldades e seu sorriso nas alegrias. Quero ser o motivo do brilho nos seus olhos e da calma no seu coração. O que sinto por você é para sempre, e cada batida do meu coração é um lembrete disso.</p>
+                <p>Para sempre seu, com todo o amor, carinho e dedicação que existem em mim,</p>
+                <p class="signature">Luan</p>
+            </div>
+        </section>
+
+        <section class="memories">
+            <div class="section-header">
+                <h2>Nossos Momentos</h2>
+                <div class="heart-divider">❤</div>
+            </div>
+            <div class="gallery">
+                <div class="gallery-item" style="background-image: url('1.jpg');"></div>
+                <div class="gallery-item" style="background-image: url('2.jpg');"></div>
+                <div class="gallery-item" style="background-image: url('3.jpg');"></div>
+                <div class="gallery-item" style="background-image: url('4.jpg');"></div>
+            </div>
+        </section>
+
+        <section class="reasons">
+            <div class="section-header">
+                <h2>Razões Pelas Qual Eu Te Amo</h2>
+                <div class="heart-divider">❤</div>
+            </div>
+            <div class="reasons-list">
+                <div class="reason-card">
+                    <div class="reason-icon"><i class="fas fa-smile"></i></div>
+                    <h3>Seu Sorriso</h3>
+                    <p>O jeito como você ilumina o mundo quando sorri</p>
+                </div>
+                <div class="reason-card">
+                    <div class="reason-icon"><i class="fas fa-heart"></i></div>
+                    <h3>Seu Coração</h3>
+                    <p>Sua bondade e compaixão por todos ao seu redor</p>
+                </div>
+                <div class="reason-card">
+                    <div class="reason-icon"><i class="fas fa-star"></i></div>
+                    <h3>Sua Essência</h3>
+                    <p>A pessoa incrível que você é, em cada detalhe</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="interactive">
+            <div class="section-header">
+                <h2>Nosso Futuro</h2>
+                <div class="heart-divider">❤</div>
+            </div>
+            <div class="future-box">
+                <p>Eu imagino um futuro cheio de momentos especiais ao seu lado.</p>
+                <button id="futureBtn" class="romantic-btn">Clique para ver nossa jornada</button>
+                <div id="futureText" class="hidden">
+                    <p>Juntos, podemos construir algo lindo. Cada riso, cada desafio, cada conquista - tudo será mais especial porque estaremos juntos.</p>
+                    <p>Eu te amo mais do que as palavras podem expressar.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>Feito com ❤ por <span id="yourName">Luan</span></p>
+            <p>Todos os direitos do coração reservados</p>
+        </footer>
+    </div>
+
+    <div class="floating-hearts" id="floatingHearts"></div>
+    <audio id="backgroundMusic" loop>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
